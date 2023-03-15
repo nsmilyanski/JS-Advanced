@@ -1,0 +1,20 @@
+#views {
+    display: none;
+}
+
+table,
+tr,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 4px 8px;
+}
+
+label {
+    display: block;
+}
