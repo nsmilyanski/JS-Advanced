@@ -11,7 +11,7 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <script src="src/app.js" type="module"></script>
+    <script src="./src/app.js" type="module"></script>
   </head>
 
   <body>
@@ -23,16 +23,20 @@
             <a class="nav-link" id="welcome-msg">Welcome, email</a>
           </li>
           <li class="nav-item user">
-            <a class="nav-link" href="#">Logout</a>
+            <a class="nav-link" href="/logout">Logout</a>
           </li>
           <li class="nav-item guest">
-            <a class="nav-link" href="#">Login</a>
+            <a class="nav-link" href="/login">Login</a>
           </li>
           <li class="nav-item guest">
-            <a class="nav-link" href="#">Register</a>
+            <a class="nav-link" href="/register">Register</a>
           </li>
         </ul>
       </nav>
+
+      <main></main>
+
+      <div id="views" style="display: none">
 
       <section id="home-page" class="view-section">
         <div
@@ -259,9 +263,11 @@
         </form>
       </section>
 
+    </div>
+
       <footer class="page-footer font-small">
         <div class="footer-copyright text-center py-3">
-          &copy; 2020
+          &copy; 2023
           <a href="#" class="text-dark">JS Applications</a>
         </div>
       </footer>
